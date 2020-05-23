@@ -1,0 +1,11 @@
+[package]
+name = "quotes-crawler"
+version = "0.1.0"
+authors = ["Mário Idival <marioidival@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+select = "0.4.3"
+reqwest = { version = "0.10.4", features = ["blocking"] }
